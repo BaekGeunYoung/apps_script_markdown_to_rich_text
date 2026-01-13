@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MarkdownToRichText - Google Sheets Add-on</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: #f8f9fa;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 40px 20px;
+        }
+        header {
+            text-align: center;
+            padding: 60px 0;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+        }
+        header h1 {
+            font-size: 2.5rem;
+            margin-bottom: 16px;
+        }
+        header p {
+            font-size: 1.2rem;
+            opacity: 0.9;
+        }
+        .content {
+            background: white;
+            padding: 40px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            margin-top: -30px;
+        }
+        h2 {
+            color: #667eea;
+            margin-bottom: 16px;
+            margin-top: 32px;
+        }
+        h2:first-child {
+            margin-top: 0;
+        }
+        ul {
+            margin-left: 24px;
+            margin-bottom: 16px;
+        }
+        li {
+            margin-bottom: 8px;
+        }
+        .features {
+            display: grid;
+            gap: 16px;
+            margin: 24px 0;
+        }
+        .feature {
+            padding: 16px;
+            background: #f8f9fa;
+            border-radius: 6px;
+            border-left: 4px solid #667eea;
+        }
+        footer {
+            text-align: center;
+            padding: 40px 20px;
+            color: #666;
+        }
+        footer a {
+            color: #667eea;
+            text-decoration: none;
+        }
+        footer a:hover {
+            text-decoration: underline;
+        }
+        .links {
+            margin-top: 16px;
+        }
+        .links a {
+            margin: 0 12px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>MarkdownToRichText</h1>
+        <p>Convert Markdown to Rich Text in Google Sheets</p>
+    </header>
+
+    <div class="container">
+        <div class="content">
+            <h2>About</h2>
+            <p>MarkdownToRichText is a Google Sheets add-on that converts Markdown text into formatted rich text. Write in Markdown and instantly see bold, italic, strikethrough, and other formatting applied directly in your spreadsheet cells.</p>
+
+            <h2>Features</h2>
+            <div class="features">
+                <div class="feature">
+                    <strong>Bold & Italic</strong> - Convert **bold** and *italic* syntax
+                </div>
+                <div class="feature">
+                    <strong>Strikethrough</strong> - Support for ~~strikethrough~~ text
+                </div>
+                <div class="feature">
+                    <strong>Easy to Use</strong> - Simple menu integration in Google Sheets
+                </div>
+                <div class="feature">
+                    <strong>Privacy Focused</strong> - All processing happens locally in your browser
+                </div>
+            </div>
+
+            <h2>How to Use</h2>
+            <ol style="margin-left: 24px;">
+                <li>Install the add-on from Google Workspace Marketplace</li>
+                <li>Open a Google Sheets document</li>
+                <li>Select cells containing Markdown text</li>
+                <li>Go to Extensions > MarkdownToRichText > Convert</li>
+            </ol>
+
+            <h2>Contact</h2>
+            <p>For support or inquiries, please contact: <a href="mailto:dvmflstm@gmail.com">dvmflstm@gmail.com</a></p>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 MarkdownToRichText. All rights reserved.</p>
+        <div class="links">
+            <a href="privacy.html">Privacy Policy</a>
+            <a href="tos.html">Terms of Service</a>
+        </div>
+    </footer>
+</body>
+</html>
