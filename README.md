@@ -55,7 +55,3 @@ Google Sheets에서 마크다운 텍스트를 서식이 적용된 리치 텍스�
 - "중요한"은 굵은 글씨로 표시
 - 테이블은 테두리가 있는 표로 변환되며 헤더 행은 회색 배경
 
-## 링크
-
-- [Privacy Policy](https://gist.github.com/BaekGeunYoung/d14e9ade4add9d6ca5f0d8d078a4b709)
-- [Terms of Service](https://gist.github.com/BaekGeunYoung/d14e9ade4add9d6ca5f0d8d078a4b709#file-tos-md)
